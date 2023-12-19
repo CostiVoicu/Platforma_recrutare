@@ -1,7 +1,7 @@
 public class LocDeMunca {
     public LocDeMunca(){
-        this.id = 0;
-        this.id_firma = 0;
+        this.id = -1;
+        this.id_firma = -1;
         this.nume = "";
         this.salariu = 0;
     }
