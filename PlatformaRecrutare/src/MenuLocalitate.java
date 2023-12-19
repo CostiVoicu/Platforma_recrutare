@@ -10,4 +10,13 @@ public class MenuLocalitate extends JMenu {
         add(stergere);
         add(modificare);
     }
+    JMenuItem getAdaugare(){
+        return adaugare;
+    }
+    JMenuItem getStergere(){
+        return stergere;
+    }
+    JMenuItem getModificare(){
+        return modificare;
+    }
 }
